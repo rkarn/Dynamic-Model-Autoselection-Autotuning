@@ -89,7 +89,7 @@ X_test = obj_df2.values[:,:-10]
 
 
 for j in range(0,43):
-    maximum = max(X_test[:,j])
+    maximum = max(X_train[:,j])
     for i in range(0,len(X_test)):
         X_test[i,j] = round(X_test[i,j]/maximum,3)
 
