@@ -1,4 +1,4 @@
-#2.	Naïve Bayes Algorithm: No any parameters can be set externally. The sklearn takes only two parameters as X and Y. Perform the accuracy testing as well as 10-fold cross validation, the accuracy is approximately 41%.
+#Naïve Bayes Algorithm: No any parameters can be set externally. The sklearn takes only two parameters as X and Y. Perform the accuracy testing as well as 10-fold cross validation, the accuracy is approximately 41%.
 
 import pandas as pd
 import numpy as np
